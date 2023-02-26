@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <!-- meta viewport привязывет настройки отображения не к ширине экрана, а к ширине окна -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/galary-styles.css">
+    <!-- <link rel="stylesheet" href="styles/dog-styles.css"> -->
+    <!-- <link rel="stylesheet" href="styles/dog-styles-responsive.css"> -->
+    <link rel="shortcut item" href="images/dogs/faiconDog2.png">
+    <title>Galary</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="logo">Galary</h1>
+    </header>
+    <main class="main-class hidden">
+        <section class="details-container">
+            <div class="details-frame">
+                <img class="details-image" src="images/dogs/dog1.jpg">
+                <button class="hide-button" onclick="hideDetails();">Hide image</button>
+                <span class="details-title">Detailed title of the most beautifull dog</span>
+            </div>
+        </section>
+        <section class="thumbnails-container">
+            <ul class="thumbnails-list">
+                <li id="dog1" class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog1.jpg" data-detailed-title="The most beautiful dog">
+                        <img class="thumbnails-image" src="images/dogs/dog1.jpg">
+                        <span class="thumbnails-title">Brown</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog2.jpg" data-detailed-title="The smartest dog">
+                        <img class="thumbnails-image" src="images/dogs/dog2.jpg">
+                        <span class="thumbnails-title">Scinetist</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog3.jpg" data-detailed-title="The whitest dog">
+                        <img class="thumbnails-image" src="images/dogs/dog3.jpg">
+                        <span class="thumbnails-title">Boxer</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog4.jpg" data-detailed-title="The lasiest dog">
+                        <img class="thumbnails-image" src="images/dogs/dog4.jpg">
+                        <span class="thumbnails-title">Bummer</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog5.jpg" data-detailed-title="The most most beautiful dog">
+                        <img class="thumbnails-image" src="images/dogs/dog5.jpg">
+                        <span class="thumbnails-title">Beauty</span>
+                    </a>
+                </li>
+                <li id="dog1" class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog1.jpg" data-detailed-title="The most beautiful dog">
+                        <img class="thumbnails-image" src="images/dogs/dog1.jpg">
+                        <span class="thumbnails-title">Brown</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog2.jpg" data-detailed-title="The smartest dog">
+                        <img class="thumbnails-image" src="images/dogs/dog2.jpg">
+                        <span class="thumbnails-title">Scinetist</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog3.jpg" data-detailed-title="The whitest dog">
+                        <img class="thumbnails-image" src="images/dogs/dog3.jpg">
+                        <span class="thumbnails-title">Boxer</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog4.jpg" data-detailed-title="The lasiest dog">
+                        <img class="thumbnails-image" src="images/dogs/dog4.jpg">
+                        <span class="thumbnails-title">Bummer</span>
+                    </a>
+                </li>
+                <li class="thumbnails-item">
+                    <a class="thumbnails-anchore" href="images/dogs/dog5.jpg" data-detailed-title="The most most beautiful dog">
+                        <img class="thumbnails-image" src="images/dogs/dog5.jpg">
+                        <span class="thumbnails-title">Beauty</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <h3>
+            &copy;
+            <a href="https://yandex.ru">yandex.ru</a>
+        </h3>
+    </footer>
+</body>
+<script src="scripts/index.js"></script>
+</html>
